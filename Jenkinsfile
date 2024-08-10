@@ -15,7 +15,7 @@ pipeline {
         stage('Git checkout from prod branch') {
             steps {
                 echo 'Cloning project codebase...'
-                git branch: 'main', url: 'https://github.com/effulgencetech/jenkins-terraform-infra-create.git'
+                git branch: 'main', url: 'https://github.com/fbristill/jenkins-terraform-infra-create.git'
                 sh 'ls'
             }
         }
