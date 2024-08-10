@@ -6,7 +6,7 @@ vpc_name = "prod-vpc"
 
 # Variables for S3 module
 
-bucket_name = "effulgence-prod-bucket-01-mike"
+bucket_name = "effulgence-prod-bucket-01-miky"
 
 # Variables for EC2 Module
 
