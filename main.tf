@@ -14,7 +14,6 @@ module "mys3" {
   bucket_name = var.bucket_name
 }
 
-/*
 # Creating Prod EC2 instance with EC2 Module
 module "prod-instance" {
   source = "./ec2"
@@ -24,7 +23,6 @@ module "prod-instance" {
 }
 */
 
-/*
 module "webhook_bucket" {
   source      = "./s3"
   bucket_name = var.webhook_bucket
